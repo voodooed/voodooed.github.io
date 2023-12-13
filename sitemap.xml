@@ -6,13 +6,13 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://shreyaspatil.dev/</loc>
+  <loc>https://voodooed.github.io/</loc>
   <lastmod>2020-05-27T10:03:21+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
-  <loc>https://shreyaspatil.dev/index.html</loc>
+  <loc>https://voodooed.github.io/index.html</loc>
   <lastmod>2020-05-27T10:03:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
