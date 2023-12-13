@@ -31,6 +31,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-ukTuh7+xC5R4PXqeqpu2mK7lsPc/HIi2z3fCvtnq3+j03Qa9pDhSN7XAmbvzpNlFf3jxQ9XNNJDOl2/KGJQe6ZQ==" crossorigin="anonymous" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <meta property="og:title" content="Vivek Anand">
@@ -63,10 +64,10 @@
                     <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#activities">Activities</a>
+                    <a class="nav-link" href="#activities">Achievements</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#myWork">My Work</a>
+                    <a class="nav-link" href="#myWork">Work</a>
                 </li>
             </ul>
         </div>
@@ -307,7 +308,7 @@
     <ul class="list-group p-3 mx-auto" style="width: fit-content;" data-aos="zoom-in-down">
         <!-- Mitacs Globalink Research Award -->
         <li class="list-group-item" style="background: transparent;">
-            <div class="large" style="color: #b7b6bb">Mitacs 2023</div>
+            <div class="large" style="color: #b7b6bb">Mitacs, 2023</div>
             <div class="large mt-2">Mitacs Globalink Research Award for Fully Funded Research in Canada</div>
         </li>
 
@@ -359,16 +360,6 @@
         </div>
     </div>
 
-    <div class="card">
-        <img class="card-img-top" src="placeholder-image.png" alt="Research Paper 2">
-        <div class="card-body">
-            <h5 class="card-title font-weight-bold">Research Paper 2</h5>
-            <p class="card-text">Description of Research Paper 2.</p>
-        </div>
-        <div class="card-body">
-            <a href="#" target="_blank" class="btn btn-outline-primary">View Paper</a>
-        </div>
-    </div>
 
     <div class="card">
         <img class="card-img-top" src="placeholder-image.png" alt="Research Paper 3">
@@ -390,17 +381,6 @@
         <div class="card-body">
             <h5 class="card-title font-weight-bold">Conference 1</h5>
             <p class="card-text">Description of Conference 1.</p>
-        </div>
-        <div class="card-body">
-            <a href="#" target="_blank" class="btn btn-outline-primary">View Details</a>
-        </div>
-    </div>
-
-    <div class="card">
-        <img class="card-img-top" src="placeholder-image.png" alt="Conference 2">
-        <div class="card-body">
-            <h5 class="card-title font-weight-bold">Conference 2</h5>
-            <p class="card-text">Description of Conference 2.</p>
         </div>
         <div class="card-body">
             <a href="#" target="_blank" class="btn btn-outline-primary">View Details</a>
@@ -434,17 +414,6 @@
     </div>
 
     <div class="card">
-        <img class="card-img-top" src="placeholder-image.png" alt="Internship 2">
-        <div class="card-body">
-            <h5 class="card-title font-weight-bold">Internship 2</h5>
-            <p class="card-text">Description of Internship 2.</p>
-        </div>
-        <div class="card-body">
-            <a href="#" target="_blank" class="btn btn-outline-primary">View Internship</a>
-        </div>
-    </div>
-
-    <div class="card">
         <img class="card-img-top" src="placeholder-image.png" alt="Internship 3">
         <div class="card-body">
             <h5 class="card-title font-weight-bold">Internship 3</h5>
@@ -470,16 +439,6 @@
         </div>
     </div>
 
-    <div class="card">
-        <img class="card-img-top" src="placeholder-image.png" alt="Project 2">
-        <div class="card-body">
-            <h5 class="card-title font-weight-bold">Project 2</h5>
-            <p class="card-text">Description of Project 2.</p>
-        </div>
-        <div class="card-body">
-            <a href="#" target="_blank" class="btn btn-outline-primary">View Project</a>
-        </div>
-    </div>
 
     <div class="card">
         <img class="card-img-top" src="placeholder-image.png" alt="Project 3">
@@ -498,6 +457,16 @@
         </div>
     </section>
     <!-- My Work Section END -->
+
+    <script>
+        // Add this script to enable tab switching
+        $(document).ready(function(){
+            $('.nav-link').on('click', function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+        });
+    </script>
 
     <!-- Footer -->
     <footer class="m-3 mx-auto">
