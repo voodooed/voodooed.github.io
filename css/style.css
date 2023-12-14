@@ -1,8 +1,8 @@
 body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0.7)),
-    url("../Images/code.jpg");
+  background: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
+    url("../Images/b.jpg");
   background-color: #000000; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-attachment: fixed;
