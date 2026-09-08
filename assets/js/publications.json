@@ -1,0 +1,76 @@
+{
+  "journals": [
+    
+    {
+      "title": "Toward Closing the Sim-to-Real Gap: A Physics-Guided Learning Approach for LiDAR Intensity Simulation",
+      "description": "Developed a physics-informed neural network simulate realistic LiDAR intensity data for autonomous vehicles.",
+      "authors": "Vivek Anand, Bharat Lohani, Vaibhav Kumar, Rakesh Mishra, Gaurav Pandey,",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "doi": "https://doi.org/10.1109/TITS.2026.3681982"
+    },
+
+    
+    {
+      "title": "Advancing LiDAR Intensity Simulation through Learning with Novel Physics-Based Modalities",
+      "description": "Developed a learning-based approach to generate realistic LiDAR intensity data for autonomous vehicles.",
+      "authors": "Vivek Anand, Bharat Lohani, Gaurav Pandey, Rakesh Mishra",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "doi": "https://doi.org/10.1109/TITS.2025.3532687"
+    },
+
+
+    {
+      "title": "Simulating Realistic LiDAR Data Under Adverse Weather for Autonomous Vehicles: A Physics-Informed Learning Approach",
+      "description": "Simulating LiDAR intensity under adverse weather conditions using physics informed learning.",
+      "authors": "Vivek Anand, Bharat Lohani, Gaurav Pandey, Rakesh Mishra",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems [Under Review - Preprint]",
+      "doi": "http://arxiv.org/abs/2604.01254"
+    },
+
+    {
+      "title": "ReaLITy: Realistic Environment-Adaptive LiDAR Intensity Transformation across Sensors and Weather",
+      "description": "A unified physics-informed framework for generating sensor-specific LiDAR intensity adaptations and realistic adverse-weather transformations across datasets, sensors, and environments.",
+      "authors": "Vivek Anand, Bharat Lohani, Gaurav Pandey, Rakesh Mishra",
+      "journal": "IEEE Intelligent Transportation Systems Magazine[Under Review]",
+      "doi": "Under Review"
+    }
+
+  ],
+  "proceedings": [
+    {
+      "title": "Realistic LiDAR Data Simulation for Autonomous Systems using Physics-Informed Learning",
+      "authors": "V Anand,S Yadav , M Limba, G Pandey, B Lohani",
+      "journal": "2026 Symposium on International Automotive Technology, Pune, MH",
+      "doi": "https://doi.org/10.4271/2026-26-0138"
+    },
+    {
+      "title": "Towards Realistic LiDAR Intensity Simulation in Snowy Weather Using Physics-Informed Learning",
+      "authors": "V Anand, B Lohani, R Mishra, G Pandey",
+      "journal": "2025 IEEE Intelligent Vehicles Symposium (IV) Cluj, Romania, 2552-2557",
+      "doi": "https://doi.org/10.1109/IV64158.2025.11097501"
+    },
+    {
+      "title": "Toward Physics-Aware Deep Learning Architectures for LiDAR Intensity Simulation",
+      "authors": "V Anand, B Lohani, G Pandey, R Mishra",
+      "journal": "Proceedings of the 14th International Conference on Simulation and Modeling Methodologies, Technologies and Applications, Dijon, France.",
+      "doi": "https://doi.org/10.5220/0012741500003758"
+    }
+  ],
+
+  "blogs": [
+    {
+      "title": "Enhancing the Realism of Simulated LiDAR Data for Autonomous Vehicles",
+      "description": "An overview of methods to improve the realism of simulated LiDAR data for autonomous driving using physics-informed and learning-based approaches.",
+      "date": "Jan 2025",
+      "tags": [
+        "LiDAR",
+        "Simulation",
+        "Autonomous Driving",
+        "Physics-Informed Learning"
+      ],
+      "link": "https://medium.com/simdaas-autonomy/enhancing-the-realism-of-simulated-lidar-data-for-autonomous-vehicles-23f8bb2ec0da"
+    }
+
+  ]
+  
+}
